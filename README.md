@@ -24,6 +24,7 @@ The dataset is taken from the GTZAN Music Genre Dataset on Kaggle (https://www.k
 
 ## File Structure
 
+```bash
 ├── music_genre_classification.ipynb
 ├── data/
   ├── images_original/
@@ -50,5 +51,5 @@ The dataset is taken from the GTZAN Music Genre Dataset on Kaggle (https://www.k
     └── blues
   ├── features_3_sec.csv
   └── features_30_sec.csv
-
+```
 
