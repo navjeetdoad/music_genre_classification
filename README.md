@@ -1,0 +1,5 @@
+# Music Genre Classification in Python
+
+## Overview
+This project aims to classify songs into 10 different musical genres usign machine learning. The model learns to recognize patterns in audio features (ex. tempo, spectral contrast, etc.) and predicts the genre of a given track.
+
