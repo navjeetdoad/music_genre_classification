@@ -25,6 +25,7 @@ The dataset is taken from the GTZAN Music Genre Dataset on Kaggle (https://www.k
 ## File Structure
 
 ```bash
+music_genre_classification/
 ├── music_genre_classification.ipynb
 ├── data/
   ├── features_3_sec.csv
