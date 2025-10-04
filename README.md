@@ -22,4 +22,33 @@ The dataset is taken from the GTZAN Music Genre Dataset on Kaggle (https://www.k
 * Allows easy dataset customization
 * Includes model saving and loading for deployment
 
+## File Structure
+
+├── music_genre_classification.ipynb
+├── data/
+  ├── images_original/
+    ├── rock/
+    ├── reggae/
+    ├── pop/
+    ├── metal/
+    ├── jazz/
+    ├── hiphop/
+    ├── disco/
+    ├── country/
+    ├── classical/
+    └── blues
+  ├── genres_original/
+    ├── rock/
+    ├── reggae/
+    ├── pop/
+    ├── metal/
+    ├── jazz/
+    ├── hiphop/
+    ├── disco/
+    ├── country/
+    ├── classical/
+    └── blues
+  ├── features_3_sec.csv
+  └── features_30_sec.csv
+
 
