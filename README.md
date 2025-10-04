@@ -10,6 +10,12 @@ This project aims to classify songs into 10 different musical genres usign machi
 * TensorFlow - Used for deep learning processes
 * Matplotlib / Seaborn / Plotly
 
+## Features
+* Extracts audio features using Librosa
+* Provides evaluation metrics and confusion matrix visualization
+* Allows easy dataset customization
+* Includes model saving and loading for deployment
+
 ## Dataset
 The dataset is taken from the GTZAN Music Genre Dataset on Kaggle (https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification), which includes Blues, Classical, Country, Disco, Hip-Hop, Jazz, Metal, Pop, Reggae and Rock. The dataset includes the following:
 * genres_original, a folder with 100 .wav files of each of the 10 genres that are each 30 seconds long.
