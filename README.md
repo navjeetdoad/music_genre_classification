@@ -40,7 +40,7 @@ music_genre_classification/
     ├── disco/
     ├── country/
     ├── classical/
-    └── blues
+    └── blues/
   ├── genres_original/
     ├── rock/
     ├── reggae/
@@ -51,6 +51,6 @@ music_genre_classification/
     ├── disco/
     ├── country/
     ├── classical/
-    └── blues
+    └── blues/
 ```
 
