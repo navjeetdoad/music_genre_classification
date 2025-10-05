@@ -4,10 +4,11 @@
 This project aims to classify .wav files of music into 10 different genres using machine learning. The model learns to recognize patterns in audio features (ex. tempo, spectral contrast, etc.) and predicts the genre of a given track.
 
 ## Dataset
-The dataset is taken from the GTZAN Music Genre Dataset on Kaggle (https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification), which includes Blues, Classical, Country, Disco, Hip-Hop, Jazz, Metal, Pop, Reggae and Rock. The dataset includes the following:
+The dataset is taken from the GTZAN Music Genre Dataset on Kaggle, which includes Blues, Classical, Country, Disco, Hip-Hop, Jazz, Metal, Pop, Reggae and Rock music data. The dataset includes the following:
 * genres_original, a folder with 1000 .wav files, 100 of each of the 10 genres that are each 30 seconds long.
 * images_original, a folder with 1000 .png files (mel-spectrograms), 100 of each of the 10 genres that visually represent each audio file.
 * 2 .csv files which contain the numerical features of the audio files.
+Note: The dataset can be found here: https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
 
 ## Technologies / Libraries Used
 * Python / Jupyter Notebook
