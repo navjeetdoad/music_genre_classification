@@ -68,7 +68,7 @@ Our .csv files have already been processed for the most part, so our only major 
 ## Exploratory Data Analysis
 In an attempt to identify any visible patterns or correlation between variables, we create a correlation matrix for the mean values of our variables from the columns of our .csv files.
 
-![alt text](Corr_Heatmap.png)
+![alt text](heatmap.png)
 
 
 
