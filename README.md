@@ -70,6 +70,8 @@ In an attempt to identify any visible patterns or correlation between variables,
 
 ![alt text](heatmap.png)
 
+We also create a boxplot using the BPM (beats per minute) of each of the 10 musical genres in an attempt to get a grasp on the distribution of our data.
 
+![alt_text](BPM_Boxplot.png)
 
 
