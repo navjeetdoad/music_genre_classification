@@ -8,6 +8,7 @@ The dataset is taken from the GTZAN Music Genre Dataset on Kaggle, which include
 * genres_original, a folder with 1000 .wav files, 100 of each of the 10 genres that are each 30 seconds long.
 * images_original, a folder with 1000 .png files (mel-spectrograms), 100 of each of the 10 genres that visually represent each audio file.
 * 2 .csv files which contain the numerical features of the audio files.
+
 Note: The dataset can be found here: https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
 
 ## Technologies / Libraries Used
