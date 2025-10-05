@@ -74,4 +74,10 @@ We also create a boxplot using the BPM (beats per minute) of each of the 10 musi
 
 ![alt_text](BPM_Boxplot.png)
 
+## Methodology
+
+Our problem of music genre classification essentially breaks down to a **pattern recognition problem** over time-series data (the audio signal), and neural networks excel at directly learning features from raw data forms such as audio. In our case, we use a convolutional neural network (CNN) in order to detect frequency patterns as well as temporal structures within our spectrograms. On top of this, our .csv files ```features_3_sec.csv``` and ```features_30_sec.csv``` contain variables with complex relationships, which a neural network would be able to decipher and learn trends from.
+
+
+
 
