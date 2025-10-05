@@ -20,7 +20,7 @@ Note: The dataset can be found here: https://www.kaggle.com/datasets/andradaolte
 
 
 ## Technologies / Libraries Used
-* **Python**: PRogramming Language
+* **Python**: Programming Language
 * **Librosa**: Extracting audio features, audio processing (ex. spectrograms)
 * **scikit-learn**: For processing and model metrics
 * **TensorFlow**: For neural network models
