@@ -11,7 +11,7 @@ This project aims to classify audio clips of music into 10 different genres usin
 3. **Comparison**: Evaluates said approaches using accuracy, classification reports and confusion matrices.
 
 
-## Technologies / Libraries Used
+## Technologies Used
 * **Python**: Programming Language
 * **Librosa**: Extracting audio features, audio processing (ex. spectrograms)
 * **scikit-learn**: For processing and model metrics
