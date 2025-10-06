@@ -62,8 +62,6 @@ music_genre_classification/
     ├── classical/
     └── blues/
 ```
-## Data Preprocessing / Feature Engineering
-Our .csv files have already been processed for the most part, so our only major changes and added features come in the form of the ```label``` column, which maps our musical genres onto a corresponding numerical value. We also remove features that will not be used, including the ```filename``` and ```length``` columns.
 
 ## Exploratory Data Analysis
 In an attempt to identify any visible patterns or correlation between variables, we create a correlation matrix for the mean values of our variables from the columns of our .csv files.
@@ -86,12 +84,10 @@ Now, for our tabular approach, we run training on multiple models with various a
 * Model 3 uses 5 layers of 512, 256, 128, 64, and 10 units with the SGD optimizer
 * Model 4 uses 6 layers of 1024, 512, 256, 128, 64, and 10 units with the RMSProp optimizer
 
-We test out various numbers of layers, units, and optimizers because they define what the model can learn, how much capacity is has to learn, as well as how effeciently the model can arrive to its conclusion.
-
-For our spectrogram approach, we instead use a convolutional neural network with an Adam optimizer and a callback function in order to prevent overfitting from occurring. 
+We test out various numbers of layers, units, and optimizers because they define what the model can learn, how much capacity is has to learn, as well as how effeciently the model can arrive to its conclusion. For our spectrogram approach, we instead use a convolutional neural network with an Adam optimizer and a callback function in order to prevent overfitting from occurring. 
 
 ## Evaluation Metrics
 
-For our tabular approach, we plot how the accuracy, loss, validation accuracy and validation loss for each of these models improve as time goes on, while our spectrogram approach provides us with a classification report which includes Precision, Recall and F1-Score.
+For our tabular approach, we plot how the accuracy, loss, validation accuracy and validation loss for each of these models improve as time goes on, while our spectrogram approach provides us with a classification report which includes Precision, Recall and F1-Score. Our comparison of our 2 approaches are presented below:
 
 
