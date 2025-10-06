@@ -92,7 +92,6 @@ For our tabular approach, we plot how the accuracy, loss, validation accuracy an
 
 ![alt_text](imgs/accuracy_comparison.png)
 
-![alt_text](imgs/class_comparison.png)
-
-![alt_text](imgs/classification_report.png)
+:-------------------------:|:-------------------------:
+![alt_text](imgs/class_comparison.png) | ![alt_text](imgs/classification_report.png)
 
