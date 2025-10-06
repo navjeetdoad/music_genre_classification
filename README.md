@@ -88,7 +88,10 @@ Now, for our tabular approach, we run training on multiple models with various a
 
 We test out various numbers of layers, units, and optimizers because they define what the model can learn, how much capacity is has to learn, as well as how effeciently the model can arrive to its conclusion.
 
-For our spectrogram approach, we use a convolutional neural network with an Adam optimizer and a callback function in order to prevent overfitting from occurring. 
+For our spectrogram approach, we instead use a convolutional neural network with an Adam optimizer and a callback function in order to prevent overfitting from occurring. 
 
 ## Evaluation Metrics
+
+For our tabular approach, we plot how the accuracy, loss, validation accuracy and validation loss for each of these models improve as time goes on, while our spectrogram approach provides us with a classification report which includes Precision, Recall and F1-Score.
+
 
