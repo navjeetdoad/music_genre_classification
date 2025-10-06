@@ -74,10 +74,21 @@ We also create a boxplot using the BPM (beats per minute) of each of the 10 musi
 
 ![alt_text](BPM_Boxplot.png)
 
-## Methodology
+## Algorithm Selection
 
 Our problem of music genre classification essentially breaks down to a **pattern recognition problem** over time-series data (the audio signal), and neural networks excel at directly learning features from raw data forms such as audio. In our case, we use a convolutional neural network (CNN) in order to detect frequency patterns as well as temporal structures within our spectrograms. On top of this, our .csv files ```features_3_sec.csv``` and ```features_30_sec.csv``` contain variables with complex relationships, which a neural network would be able to decipher and learn trends from.
 
+## Training Strategy
 
+Now, for our tabular approach, we run training on multiple models with various amounts of layers and units in order to evaluate the effectiveness of each option.
+* Model 1 uses 4 layers of 256, 128, 64, and 10 units with the Adam optimizer
+* Model 2 uses 5 layers of 512, 256, 128, 64, and 10 units with the Adam optimizer
+* Model 3 uses 5 layers of 512, 256, 128, 64, and 10 units with the SGD optimizer
+* Model 4 uses 6 layers of 1024, 512, 256, 128, 64, and 10 units with the RMSProp optimizer
 
+We test out various numbers of layers, units, and optimizers because they define what the model can learn, how much capacity is has to learn, as well as how effeciently the model can arrive to its conclusion.
+
+For our spectrogram approach, we use a convolutional neural network with an Adam optimizer and a callback function in order to prevent overfitting from occurring. 
+
+## Evaluation Metrics
 
