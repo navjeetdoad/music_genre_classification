@@ -90,8 +90,9 @@ We test out various numbers of layers, units, and optimizers because they define
 
 For our tabular approach, we plot how the accuracy, loss, validation accuracy and validation loss for each of these models improve as time goes on, while our spectrogram approach provides us with a classification report which includes Precision, Recall and F1-Score. Our comparison of our 2 approaches are presented below:
 
+![alt_text](imgs/accuracy_comparison.png)
+
 ![alt_text](imgs/class_comparison.png)
 
 ![alt_text](imgs/classification_report.png)
 
-![alt_text](imgs/accuracy_comparison.png)
