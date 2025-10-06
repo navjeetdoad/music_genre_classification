@@ -92,6 +92,13 @@ For our tabular approach, we plot how the accuracy, loss, validation accuracy an
 
 ![alt_text](imgs/accuracy_comparison.png)
 
-![alt_text](imgs/class_comparison.png) 
 ![alt_text](imgs/classification_report.png)
+
+As we can see, our tabular approach yields much more effective results at the moment. The melspectrogram approach might require further training on an increased number of epochs and further hyperparameter tuning before it is able to reach a higher accuracy threshold.
+
+## Results and Analysis
+
+From our classification report above, we see that our tabular approach performs very strongly, with the model returning a high accuracy, precision, recall, and F1-score in our results. This indicates robust and reliable performance, suggesting that the model effectively captures key audio features while being able to distinguish various musical genres, generalizes well to unseen data, and minimizes both false positives and negatives. The model was also created with a callback function, meaning that overfitting has been prevented and these accuracy values are a true result of the models reliable performance. Thus, there is a high level of confidence in this model, and it can confidently be used for music genre tagging purposes.
+
+
 
